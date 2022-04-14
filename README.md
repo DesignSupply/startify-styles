@@ -1,11 +1,11 @@
 # Startify-styles
 
-Startify-stylesはウェブサイトを作成するために必要なリソースがひととおり揃った静的コーディングの開発環境で使うデザインアセットです。デザインから静的コーディングまでを行う過程で使用するデザインテンプレートデータや、そのテンプレートの対応したSassファイル（.scssおよび.sass形式））を使用することができ、DartSassのAPIを使ったコンパイルも可能で、効率よくデザインシステムを導入することができます。また、Sassファイルは下記の開発環境と組み合わせることで、PugやJavaScript（TypeScript）や各種フレームワークを併用したフロントエンド開発が可能となります。
+Startify-stylesはウェブサイトを作成するために必要なリソースがひととおり揃った静的コーディングの開発環境で使うデザインアセットです。デザインから静的コーディングまでを行う過程で使用するデザインテンプレートデータや、そのテンプレートの対応したSassファイル（.scssおよび.sass形式））を使用することができ、DartSassのAPIを使ったコンパイルも可能で、効率よくデザインシステムを導入することができます。また、Sassファイルは下記の開発環境と組み合わせることで、PugやEJSなどのテンプレートエンジン、JavaScript（TypeScript）や各種フレームワークを併用したフロントエンド開発が可能となります。
 
 
 - [Startify3](https://github.com/DesignSupply/startify3/)：React ＋ webpackベースのコーディング環境
 - [Startify2](https://github.com/DesignSupply/startify2/)：Vue.js ＋ webpackベースのコーディング環境
-- [Startify](https://github.com/DesignSupply/startify2/)：Vue.js ＋ Gulpベースのコーディング環境
+- [Startify](https://github.com/DesignSupply/startify/)：Vue.js ＋ Gulpベースのコーディング環境
 
 
 
