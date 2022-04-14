@@ -2,6 +2,7 @@
 .packages
 pubspec.lock
 build/
+css/*.map
 doc/api/
 .DS_Store
 *.iml
