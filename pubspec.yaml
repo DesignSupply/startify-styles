@@ -1,0 +1,8 @@
+name: dart_sass
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dev_dependencies:
+  sass: ^1.50.0,
+  source_maps: ^0.10.10
