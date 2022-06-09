@@ -1,5 +1,8 @@
 @use "variable" as *;
 
+/* -------------------------------
+ *  neumorphism style
+ * ---------------------------- */
 @mixin neumorphism($direction: deboss) {
   @if $direction == emboss {
     box-shadow: 
