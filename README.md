@@ -5,6 +5,7 @@ Startify-stylesはウェブサイトを作成するために必要なリソー�
 
 - [Startify3](https://github.com/DesignSupply/startify3/)：React ＋ webpackベースのコーディング環境
 - [Startify2](https://github.com/DesignSupply/startify2/)：Vue.js ＋ webpackベースのコーディング環境
+- [Startify-dev](https://github.com/DesignSupply/startify-dev/)：Docker ＋ Laravelのアプリケーション開発環境
 - [Startify](https://github.com/DesignSupply/startify/)：Vue.js ＋ Gulpベースのコーディング環境（現在、更新停止中）
 
 
