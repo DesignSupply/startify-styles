@@ -33,8 +33,14 @@
   &.u-flex-wrap {
     flex-wrap: wrap;
   }
-  &.u-flex-vertical {
+  &.u-flex-column {
     flex-direction: column;
+  }
+  &.u-flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+  &.u-flex-column-reverse {
+    flex-direction: column-reverse;
   }
   & > .u-flex-grow-1 {
     flex-grow: 1;
@@ -121,6 +127,13 @@
 }
 
 /* -------------------------------
+ *  grid layout
+ * ---------------------------- */  
+ .u-grid {
+  display: grid;
+ }
+
+/* -------------------------------
  *  alignment
  * ---------------------------- */
 .u-align-left {
@@ -194,4 +207,26 @@
 }
 .u-inline-block {
   display: inline-block;
+}
+.u-none {
+  display: none;
+}
+
+/* -------------------------------
+ *  position
+ * ---------------------------- */
+.u-static {
+  position: static;
+} 
+.u-absolute {
+  position: absolute;
+}
+.u-relative {
+  position: relative;
+}
+.u-fixed {
+  position: fixed;
+}
+.u-sticky {
+  position: sticky;
 }
