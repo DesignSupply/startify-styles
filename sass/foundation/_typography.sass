@@ -1,4 +1,3 @@
-@use "sass:math" as *
 @use "variable" as *
 
 /* -------------------------------
@@ -81,6 +80,3 @@
     line-height: $line-height-caption
     letter-spacing: $letter-spacing-caption
     font-weight: normal
-@function responsive-font-size($target-font-size, $target-screen-size)
-  $view-width-ratio: div($target-screen-size, 100)
-  @return div($target-font-size, $view-width-ratio) * 1vw

@@ -1,11 +1,13 @@
+@use "function" as *;
+
 /* -------------------------------
  *  default style
  * ---------------------------- */
 $default-color: #333 !default;
-$default-font-size: 1.6rem !default;
+$default-font-size: rem(16) !default;
 $default-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Arial, "Yu Gothic Medium", "Yu Gothic", YuGothic, Meiryo, sans-serif !default;
 $default-line-height: 1.75 !default;
-$default-letter-spacing: 0.1rem !default;
+$default-letter-spacing: rem(1) !default;
 $default-border-radius: 8px !default;
 $default-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s !default;
 $default-text-shadow: 2px 2px 8px rgba(0,0,0,.5) !default;
@@ -64,17 +66,17 @@ $space-XXXS: 4px !default;
 /* -------------------------------
  *  font size
  * ---------------------------- */
-$font-XXXXL: 4.0rem !default;
-$font-XXXL: 3.2rem !default;
-$font-XXL: 2.8rem !default;
-$font-XL: 2.4rem !default;
-$font-L: 2.0rem !default;
-$font-M: 1.8rem !default;
-$font-R: 1.6rem !default;
-$font-S: 1.4rem !default;
-$font-XS: 1.2rem !default;
-$font-XXS: 1.0rem !default;
-$font-XXXS: 0.8rem !default;
+$font-XXXXL: rem(40) !default;
+$font-XXXL: rem(32) !default;
+$font-XXL: rem(28) !default;
+$font-XL: rem(24) !default;
+$font-L: rem(20) !default;
+$font-M: rem(18) !default;
+$font-R: rem(16) !default;
+$font-S: rem(14) !default;
+$font-XS: rem(12) !default;
+$font-XXS: rem(10) !default;
+$font-XXXS: rem(8) !default;
 
 /* -------------------------------
  *  line spacing
@@ -93,10 +95,10 @@ $line-height-title: 1.4 !default;
 $letter-spacing-caption: 0 !default;
 $letter-spacing-bodycopy: 0 !default;
 $letter-spacing-leadcopy: 0 !default;
-$letter-spacing-headline: 0.05rem !default;
-$letter-spacing-subcatch: 0.05rem !default;
-$letter-spacing-catchcopy: 0.1rem !default;
-$letter-spacing-title: 0.2rem !default;
+$letter-spacing-headline: rem(0.5) !default;
+$letter-spacing-subcatch: rem(0.5) !default;
+$letter-spacing-catchcopy: rem(1) !default;
+$letter-spacing-title: rem(2) !default;
 
 /* -------------------------------
  *  layer order
