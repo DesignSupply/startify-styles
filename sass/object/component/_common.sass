@@ -11,8 +11,8 @@ noscript
   top: 0
   left: 0
   width: 100%
-p:not(:last-child)
-  margin: 0 0 var(--space-S) 0
+p:not(:first-child)
+  margin-top: var(--space-S)
 a:link,
 a:visited,
 a:hover,
@@ -24,6 +24,8 @@ a:active
 img
   max-width: 100%
   height: auto
+address
+  font-style: normal
 input[type="text"],
 input[type="number"],
 input[type="date"],
