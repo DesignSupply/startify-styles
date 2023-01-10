@@ -16,7 +16,7 @@ Startify-stylesで主にできることは以下になります。
 
 * Sketch、Adobe XD、Figmaに対応したデザインガイドライン付きページデザインテンプレート
 * Sass（SCSS記法・SASS記法）のコンパイル
-* デザインテンプレートのフォーマットに合わせたSass変数およびmixinの使用
+* デザインテンプレートのフォーマットに合わせたSass・CSS変数およびmixinの使用
 * ソースコードのマッピングファイルの生成
 * CSSファイルのminify化
 
