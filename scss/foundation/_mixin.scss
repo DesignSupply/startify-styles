@@ -16,6 +16,21 @@
 }
 
 /* -------------------------------
+ *  container query
+ * ---------------------------- */
+@mixin container-query($name, $width, $rule: max-width) {
+  @if $rule == max-width {
+    @container #{$name} (max-width: #{$width}px) {
+      @content;
+    }
+  } @else if $rule == min-width {
+    @container #{$name} (min-width: #{$width}px) {
+      @content;
+    }
+  }
+}
+
+/* -------------------------------
  *  hover & focus
  * ---------------------------- */
 @mixin hover-style($disabled: false) {
