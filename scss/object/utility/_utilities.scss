@@ -145,6 +145,9 @@
 .u-align-right {
   text-align: right;
 }
+.u-align-justify {
+  text-align: justify;
+}
 .u-block-left {
   margin-left: 0;
   margin-right: auto;
@@ -230,3 +233,29 @@
 .u-sticky {
   position: sticky;
 }
+
+/* -------------------------------
+ *  visibility
+ * ---------------------------- */
+.u-visible {
+  visibility: visible;
+} 
+.u-hidden {
+  visibility: hidden;
+} 
+.u-collapse {
+  visibility: collapse;
+} 
+
+/* -------------------------------
+ *  opacity
+ * ---------------------------- */
+.u-opacity-0 {
+  opacity: 0;
+} 
+.u-opacity-50 {
+  opacity: 0.5;
+} 
+.u-opacity-100 {
+  opacity: 1;
+} 
