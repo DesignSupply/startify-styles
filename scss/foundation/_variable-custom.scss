@@ -1,4 +1,5 @@
 @use "variable" as *;
+@use "mixin" as *;
 @use "color" as *;
 @use "animation" as *;
 
@@ -191,5 +192,29 @@
     --accent-color__5: #{accent-color(3)};
     --accent-color__6: #{accent-color(2)};
     --accent-color__7: #{accent-color(1)};
+  }
+}
+// container width
+:root {
+  --container-width: calc(var(--screen-xl) * 1px);
+}
+@include media-query(xxl) {
+  :root {
+    --container-width: calc(var(--screen-xl) * 1px);
+  }
+}
+@include media-query(xl) {
+  :root {
+    --container-width: calc(var(--screen-lg) * 1px);
+  }
+}
+@include media-query(lg) {
+  :root {
+    --container-width: calc(var(--screen-md) * 1px);
+  }
+}
+@include media-query(md) {
+  :root {
+    --container-width: 100%;
   }
 }
