@@ -164,6 +164,9 @@
 /* -------------------------------
  *  font style
  * ---------------------------- */
+.u-regular {
+  font-weight: normal;
+}
 .u-bold {
   font-weight: bold;
 }
@@ -197,6 +200,9 @@
 }
 .u-float-none {
   float: none;
+}
+.u-float-clear {
+  clear: both;
 }
 
 /* -------------------------------
