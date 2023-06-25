@@ -61,21 +61,17 @@
   --font-XS: #{$font-XS};
   --font-2XS: #{$font-2XS};
   // line spacing
-  --line-height-caption: #{$line-height-caption};
-  --line-height-bodycopy: #{$line-height-bodycopy};
-  --line-height-leadcopy: #{$line-height-leadcopy};
-  --line-height-headline: #{$line-height-headline};
-  --line-height-subcatch: #{$line-height-subcatch};
-  --line-height-catchcopy: #{$line-height-catchcopy};
-  --line-height-title: #{$line-height-title};
+  --line-height-140: #{$line-height-140};
+  --line-height-150: #{$line-height-150};
+  --line-height-160: #{$line-height-160};
+  --line-height-175: #{$line-height-175};
+  --line-height-180: #{$line-height-180};
+  --line-height-200: #{$line-height-200};
   // kerning
-  --letter-spacing-caption: #{$letter-spacing-caption};
-  --letter-spacing-bodycopy: #{$letter-spacing-bodycopy};
-  --letter-spacing-leadcopy: #{$letter-spacing-leadcopy};
-  --letter-spacing-headline: #{$letter-spacing-headline};
-  --letter-spacing-subcatch: #{$letter-spacing-subcatch};
-  --letter-spacing-catchcopy: #{$letter-spacing-catchcopy};
-  --letter-spacing-title: #{$letter-spacing-title};
+  --letter-spacing-0: #{$letter-spacing-0};
+  --letter-spacing-1: #{$letter-spacing-1};
+  --letter-spacing-2: #{$letter-spacing-2};
+  --letter-spacing-4: #{$letter-spacing-4};
   // layer order
   --layer-order__fixed-content-default: #{layer-order(fixed-content-default)};
   --layer-order__fixed-content-alert: #{layer-order(fixed-content-alert)};
