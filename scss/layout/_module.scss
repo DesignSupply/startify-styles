@@ -29,7 +29,7 @@ $base-gap-size: var(--space-R) !default;
   max-width: 100%;
   margin: 0;
 }
-@include media-query(xxl) {
+@include media-query(2xl) {
   .l-container {
     max-width: calc(var(--screen-xl) * 1px);
   }
@@ -59,7 +59,7 @@ $base-gap-size: var(--space-R) !default;
     max-width: 100%;
   }
 }
-@include media-query(xxs) {
+@include media-query(2xs) {
   .l-container {
     max-width: 100%;
   }

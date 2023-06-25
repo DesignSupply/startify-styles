@@ -23,22 +23,22 @@ $hover-box-shadow: 0 0 16px rgba(0,0,0,0.15) !default;
 /* -------------------------------
  *  screen size & breakpoint
  * ---------------------------- */
-$screen-xxl: 1440 !default;
+$screen-2xl: 1440 !default;
 $screen-xl: 1280 !default;
 $screen-lg: 992 !default;
 $screen-md: 768 !default;
 $screen-sm: 544 !default;
 $screen-xs: 480 !default;
-$screen-xxs: 360 !default;
+$screen-2xs: 360 !default;
 $breakpoint-list: (
   switch: #{$screen-md},
-  xxs: #{$screen-xxs},
+  2xs: #{$screen-2xs},
   xs: #{$screen-xs},
   sm: #{$screen-sm},
   md: #{$screen-md},
   lg: #{$screen-lg},
   xl: #{$screen-xl},
-  xxl: #{$screen-xxl}
+  2xl: #{$screen-2xl}
 ) !default;
 
 /* -------------------------------
