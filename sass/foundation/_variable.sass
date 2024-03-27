@@ -94,7 +94,7 @@ $letter-spacing-4: rem(4) !default
 /* -------------------------------
  *  layer order
  * ---------------------------- */
-$layer-order-list: (fixed-content-default: 100, fixed-content-alert: 200, drawer-navi: 300, dialog: 400, loading-screen: 500) !default
+$layer-order-list: (default: 100, alert: 200, drawer: 300, dialog: 400, loading: 500) !default
 @function layer-order($layer-order-key)
   @return #{map-get($layer-order-list, $layer-order-key)}
 
