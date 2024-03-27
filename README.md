@@ -64,7 +64,7 @@ $ dart compile.dart INPUT_FILE_PATH OUTPUT_FILE_PATH
 
 ## Note
 
-* Sassファイルの変数はSketch、Adobe XD、Figmaの各テンプレートのデザインガイドに合わせています。
+* Sassファイルの変数はFigmaのテンプレートのデザインガイドに合わせています。
 * Sassのファイルおよびディレクトリの構成はFLOCSSに基づいて設計しています。
 * プロジェクト内で使用しているclass名はBEMの命名規則を緩やかに沿った設計になっています。
 * Dartコマンドでのコンパイル処理はデフォルトで圧縮されたファイルが出力される設定になっています。
