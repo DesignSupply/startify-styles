@@ -27,7 +27,12 @@
 .u-flex-around-center,
 .u-flex-around-end,
 .u-flex-around-stretch,
-.u-flex-around-baseline {
+.u-flex-around-baseline,
+.u-flex-evenly-start,
+.u-flex-evenly-center,
+.u-flex-evenly-end,
+.u-flex-evenly-stretch,
+.u-flex-evenly-baseline {
   display: flex;
   flex-direction: row;
   &.u-flex-wrap {
@@ -53,6 +58,9 @@
   }
   & > .u-flex-shrink-0 {
     flex-shrink: 0;
+  }
+  & > .u-flex-basis-0 {
+    flex-basis: 0;
   }
 }
 .u-flex-start-start,
@@ -90,48 +98,94 @@
 .u-flex-around-baseline {
   justify-content: space-around;
 }
+.u-flex-evenly-start,
+.u-flex-evenly-center,
+.u-flex-evenly-end,
+.u-flex-evenly-stretch,
+.u-flex-evenly-baseline {
+  justify-content: space-evenly;
+}
 .u-flex-start-start,
 .u-flex-center-start,
 .u-flex-end-start,
 .u-flex-between-start,
-.u-flex-around-start {
+.u-flex-around-start,
+.u-flex-evenly-start {
   align-items: flex-start;
 }
 .u-flex-start-center,
 .u-flex-center-center,
 .u-flex-end-center,
 .u-flex-between-center,
-.u-flex-around-center {
+.u-flex-around-center,
+.u-flex-evenly-center {
   align-items: center;
 }
 .u-flex-start-end,
 .u-flex-center-end,
 .u-flex-end-end,
 .u-flex-between-end,
-.u-flex-around-end {
+.u-flex-around-end,
+.u-flex-evenly-end {
   align-items: flex-end;
 }
 .u-flex-start-stretch,
 .u-flex-center-stretch,
 .u-flex-end-stretch,
 .u-flex-between-stretch,
-.u-flex-around-stretch {
+.u-flex-around-stretch,
+.u-flex-evenly-stretch {
   align-items: stretch;
 }
 .u-flex-start-baseline,
 .u-flex-center-baseline,
 .u-flex-end-baseline,
 .u-flex-between-baseline,
-.u-flex-around-baseline {
+.u-flex-around-baseline,
+.u-flex-evenly-baseline {
   align-items: baseline;
 }
 
 /* -------------------------------
  *  grid layout
  * ---------------------------- */  
- .u-grid {
+.u-grid {
   display: grid;
- }
+}
+
+/* -------------------------------
+ *  layout spacing (gap)
+ * ---------------------------- */
+.u-gap-column-xs {
+  column-gap: var(--space-XS);
+}
+.u-gap-column-s {
+  column-gap: var(--space-S);
+}
+.u-gap-column-r {
+  column-gap: var(--space-R);
+}
+.u-gap-column-m {
+  column-gap: var(--space-M);
+}
+.u-gap-column-l {
+  column-gap: var(--space-L);
+}
+.u-gap-row-xs {
+  row-gap: var(--space-XS);
+}
+.u-gap-row-s {
+  row-gap: var(--space-S);
+}
+.u-gap-row-r {
+  row-gap: var(--space-R);
+}
+.u-gap-row-m {
+  row-gap: var(--space-M);
+}
+.u-gap-row-l {
+  row-gap: var(--space-L);
+}
 
 /* -------------------------------
  *  alignment
