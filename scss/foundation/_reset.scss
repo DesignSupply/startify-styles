@@ -24,10 +24,11 @@
   box-sizing: inherit;
 }
 html {
-  scroll-behavior: smooth;
+  // scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 body {
-  -webkit-text-size-adjust: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -151,6 +152,10 @@ q:before {
 progress {
   vertical-align: baseline;
 }
+svg {
+  width: auto;
+  height: 1lh;
+}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -170,18 +175,18 @@ video {
 input {
   border-radius: 0;
 }
-button {
-  cursor: pointer;
-}
 textarea {
   overflow: auto;
   resize: vertical;
+  field-sizing: content;
 }
 optgroup {
   font: inherit;
 }
 button {
   overflow: visible;
+  cursor: pointer;
+  touch-action: manipulation;
 }
 button,
 input,
@@ -191,6 +196,7 @@ textarea {
   border-style: none;
   color: inherit;
   font: inherit;
+  font-size: 1rem;
 }
 button,
 select {

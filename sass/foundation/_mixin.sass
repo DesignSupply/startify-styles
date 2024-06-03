@@ -26,7 +26,7 @@
  *  hover & focus
  * ---------------------------- */
 =hover-style($disabled: false)
-  @media (hover: hover) and (pointer: fine)
+  @media (any-hover: hover)
     &:hover
       @content
   @if $disabled

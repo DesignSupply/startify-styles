@@ -34,7 +34,7 @@
  *  hover & focus
  * ---------------------------- */
 @mixin hover-style($disabled: false) {
-  @media (hover: hover) and (pointer: fine) {
+  @media (any-hover: hover) {
     &:hover {
       @content;
     }

@@ -108,7 +108,7 @@ $layer-order-list: (
   alert: 200, 
   drawer: 300, 
   dialog: 400, 
-  loading: 500
+  loading: calc(infinity)
 ) !default;
 @function layer-order($layer-order-key) {
   @return #{map-get($layer-order-list, $layer-order-key)}
